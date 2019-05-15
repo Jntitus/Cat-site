@@ -1,0 +1,112 @@
+.content,
+nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+
+body {
+    margin:0;
+}
+img {
+    display: block;
+}
+.relative-wrapper{
+    position: relative;
+    
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, .65);
+}
+
+
+.banner {
+    width: 100%; 
+    background-color: teal;
+}
+.banner img {
+    width: 100%;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+nav ul{
+    list-style-type: none;
+    text-align:left;
+}
+nav ul li{
+    
+    
+    display: inline-block;
+}
+
+nav a{
+    color: #440c50;
+    font-weight: bold;
+    text-decoration:none;
+    transition: color .4s;
+    
+}
+nav a:hover,
+a.active {
+    color:#d245f5;
+}
+.gallery-banner{
+    background-image: url(../gallerybanner.jpeg);
+    width: 100%;
+    height: 300px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery .image{
+    width: 30%;
+    margin: .5em;
+}
+.gallery .image > img{
+    width: 100%;
+}
+.footer-background{
+    background-image: url('../catcute.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-text {
+    
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    padding: 50px 0;
+}
+.footer-text ul{
+    list-style-type: none;
+    text-align:left;
+}
+.footer-text a,
+.footer-text li {
+    color: cornsilk;
+    font-weight: bold;
+    text-decoration:none;
+    transition: color .4s;
+}
+
+
+.footer-text a:hover{
+    color: cadetblue;
+    
+}
+
