@@ -79,7 +79,12 @@ a.active {
     cursor: pointer;
     height: 350px;
     margin: .5em;
+    transition: transform 0.35s;
     width: calc(100% / 3 - 1em)
+}
+
+.gallery .image:hover {
+    transform: scale(1.05)
 }
 .gallery .image > img{
     width: 100%;
